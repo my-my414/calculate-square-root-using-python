@@ -1,0 +1,12 @@
+//square root finding using real numbers
+num=7.54
+num_sqrt=num**0.5
+print("The square root of",num,"is",num_squrt)
+
+//another method of finding square root of real or complex number 
+//import the complex math module
+
+import cmath
+num=87-86j
+num_sqrt=cmath.sqrt(num)
+print("The square root of",num,"is",num_sqrt)
